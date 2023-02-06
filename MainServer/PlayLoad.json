@@ -1,0 +1,8 @@
+{
+  "pub": [
+    "rebotdata/${username}"
+  ],
+  "sub": [
+    "rebotcmd/${username}"
+  ]
+}
