@@ -10,7 +10,7 @@ namespace MainServer.Service
     public class UserMySqlService
     {
         [NotNull]
-        MySqlConnection connection_device_data=new MySqlConnection("server=43.156.64.6;database=user_data;username=lenyulin;password=Java19970203..;");
+        MySqlConnection connection_device_data=new MySqlConnection("server=xxxxx;database=user_data;username=xxxxx;password=xxxxx;");
         public UserMySqlService()
         {
             var res = Conn();
