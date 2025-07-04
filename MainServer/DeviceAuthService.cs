@@ -6,7 +6,7 @@ namespace MainServer
     public class DeviceAuthService
     {
         [NotNull]
-        MySqlConnection connection_device_data = new MySqlConnection("server=43.156.64.6;database=device_data;username=lenyulin;password=Java19970203..;");
+        MySqlConnection connection_device_data = new MySqlConnection("server=xxxxx;database=device_data;username=xxxxx;password=xxxxxx;");
         public DeviceAuthService()
         {
             var res = Conn();
